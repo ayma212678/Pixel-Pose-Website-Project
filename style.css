@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Quicksand:wght@300..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* GLOBAL STYLES */
+body {
+    font-family: 'Quicksand', sans-serif;
+    color: #e6dcc8;
+    background: linear-gradient(120deg, #2F3E2E 15%, #465C43 85%);
+}
+
+/* SIDEBAR */
+
+.sidebar {
+    position: fixed;
+    width: 240px;
+    height: 100vh;
+    background: #E6DCC8;
+    padding: 30px 20px;
+}
+
+.logo img {
+    width: 180px;
+    display: block;
+    margin: 0 auto 40px;
+}
+
+.menu-items a {
+    display: block;
+    margin-bottom: 25px;
+    color: #4A5D3A;
+    font-weight: 600;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.menu-items a:hover {
+    transform: translateX(6px);
+    color: #2F3E2E;
+}
+
+/* MAIN CONTENT */
+
+.main-content {
+    margin-left: 240px;
+}
+
+/*--- HOME --- */
+.home {
+    min-height: 100vh;
+}
+
+.home-banner {
+    height: 140px;
+    overflow: hidden;
+}
+
+.home-banner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.home-content {
+    display: flex;
+}
+
+.home-left {
+    width: 55%;
+    padding: 80px;
+}
+
+.home-left h1 {
+    font-family: 'Abril Fatface', serif;
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.home-right {
+    width: 45%;
+    display: flex;
+    align-items: flex-end;
+}
+
+.home-right img {
+    width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    border-radius: 0px;
+}
+
+/* ---ABOUT--- */
+
+.about-section {
+    display: flex;
+    gap: 60px;
+    min-height: 100vh;
+    padding: 80px;
+    background-color: #465C43;
+}
+
+.about-text h2 {
+    font-family: 'Abril Fatface', serif;
+    font-size: 2.5rem;
+    margin-bottom: 45px;
+}
+
+.about-left {
+    flex: 1;
+    display: flex;
+    flex-direction: column; 
+    gap: 30px; 
+}
+
+.about-small-images {
+    display: flex;
+    gap: 60px;
+}
+
+.about-small-images img {
+    width: 48%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-top: 0;
+}
+
+.about-right img {
+    width: 80%;
+    height: 70vh;
+    object-fit: cover;
+    border-radius: 12px;
+    margin-top: -30px;
+    margin-right: -20px;
+}
+
+/*--- SERVICES ---*/
+
+.services-section {
+    padding: 80px;
+    background: #2F3E2E;
+    min-height: 100vh;
+}
+
+.services-section h2 {
+    font-family: 'Abril Fatface', serif;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.services-tagline {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.services {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: #E6DCC8;
+    color: #2F3E2E;
+    width: 260px;
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-6px);
+}
+
+.card img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 6px;
+    margin-bottom: 12px;
+}
+
+.card h3 {
+    font-family: 'Abril Fatface', serif;
+    margin-bottom: 10px;
+}
+
+/*--- CONTACT--- */
+
+.contact-section {
+    padding: 80px;
+    background-color: #465C43;
+}
+
+.contact-section h2 {
+    font-family: 'Abril Fatface', serif;
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.contact-tagline {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.contact-form {
+    max-width: 500px;
+    margin: auto;
+    background: #E6DCC8;
+    padding: 30px;
+    border-radius: 12px;
+    color: #2F3E2E;
+}
+
+.contact-form label {
+    display: block;
+    margin-top: 15px;
+    font-weight: 600;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 6px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+.contact-form button {
+    margin-top: 20px;
+    width: 100%;
+    padding: 12px;
+    background: #2F3E2E;
+    color: #E6DCC8;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background: #1f291f;
+}
