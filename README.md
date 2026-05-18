@@ -3,9 +3,9 @@
 Pixel & Pose is a responsive photography studio website developed as a collaborative course project for **CSC-100L: Application of Information and Technologies**. 
 
 ## Team Members (Section: A-Afternoon)
-* **Ayma Harris** (2025-CS-329)
-* **Zunaira Javed** (2025-CS-303)
-* **Hadia** (2025-CS-305)
+* **Ayma Harris** (2025-CS-329)-[https://github.com/ayma212678]
+* **Zunaira Javed** (2025-CS-303)-[https://github.com/zunairajaved999]
+* **Hadia** (2025-CS-305)-[https://github.com/Hadia2922]
 
 ## Project Features
 The application features a structured multi-page user interface designed to simulate a real-world business website:
